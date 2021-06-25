@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.h-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.h-container>div {
+    padding: 1em 2em;
+}
+
+.menu-container>a {
+    padding-left: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    padding: 3em;
+}
+
+.promo-container {
+
+ 
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    height: 520px;
+    width: 40em;
+    margin-right: 1em;
+   
+   
+
+}
+
+
+
+.promo-container h2{
+ 
+    color: #FC200C;
+    text-align: center;
+   
+    padding-top: 1em ;
+   
+
+}
+
+.promo-container span {
+    color: white;
+}
+
+.p-container {
+    background-color: white;
+    padding: 1em;
+
+}
+
+.podio-title {
+    text-align: center;
+    color: #FC200C;
+    font-size: 1.7em;
+}
+
+.podio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.podio-container img{
+    padding: 1em 5em;
+    
+}
+
+.podio-container>div {
+    padding-left: 3em;
+}
+
+.podio-container h2{
+    text-align: center;
+}
+
+.podio-container li {
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.f-container {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+    align-items: center;
+}
+
+.f-container div {
+    padding:1em 2em ;
+}
+
+.f-menu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-menu-container a {
+
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
